@@ -1,0 +1,39 @@
+// Normally mainpage media styles
+// You can read about usage in https://github.com/paranoida/sass-mediaqueries 
+
+
+//styles for custom device width
+@include mq($max-width: 997px) {
+  .tile_main{
+	.col-md-6, .col-md-3{
+		margin-bottom: 10px;
+	}
+	.row{
+		padding-bottom: 0;
+	}
+	.tile_item{
+		img{
+			width: 100%;
+		}
+		.tile_link{
+			img{
+				width: auto;
+			}
+		}
+	}
+  }
+  .tile_link_block, .tile_main_txt{
+  	height: auto;
+  	padding: 20px 0px;
+  }
+  .header, .footer{
+  	text-align: center;
+  }
+  	.logo{
+  		padding-bottom: 25px;
+  		display: block;
+  	}
+  .menu li{
+  	width: 30%;
+  }
+}
