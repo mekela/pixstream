@@ -36,4 +36,35 @@
   .menu li{
   	width: 30%;
   }
+
+  .dropdown{
+		top: 190px;
+		strong, ol{
+			display: block;
+			width: 50%;
+			box-sizing: border-box;
+			float: left;
+			height: auto;
+			border-left: none;
+			margin-bottom: 20px;
+		}
+	}
+
+
+}
+
+@include mq($max-width: 500px) {
+	.dropdown{
+		top: 190px;
+		padding: 10px 0;
+		strong, ol{
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			float: left;
+			height: auto;
+			border-left: none;
+			margin-bottom: 20px;
+		}
+	}
 }

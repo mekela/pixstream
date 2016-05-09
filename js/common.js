@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	//fancybox
 	$('.fancybox').fancybox({
 		helpers: {
@@ -8,11 +9,4 @@ $(document).ready(function() {
 		}
 	});
 	
-	//bxslider
-	$('.bxslider').bxSlider({
-	  nextSelector: '#slider-next',
-	  prevSelector: '#slider-prev',
-	  nextText: 'Onward →',
-	  prevText: '← Go back'
-	});
 });
